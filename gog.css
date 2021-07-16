@@ -11,6 +11,11 @@ body {
     position: absolute;
     top:0px
 }
+.purpleStripe2 {
+    width:100%;
+    position: absolute;
+    bottom:0px;
+}
 
 .navbar {
     background-color:rgba(26,26,26,0.9);
@@ -19,6 +24,7 @@ body {
 #gog-footer {
     background-color: rgba(26,26,26,0.9);
     width: 100%;
+    position: relative;
 }
 
 .carousel-indicators {
