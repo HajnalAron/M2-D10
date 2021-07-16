@@ -16,6 +16,11 @@ body {
     background-color:rgba(26,26,26,0.9);
 }
 
+#gog-footer {
+    background-color: rgba(26,26,26,0.9);
+    width: 100%;
+}
+
 .carousel-indicators {
     margin-bottom: -2rem;
 }
@@ -53,7 +58,8 @@ body {
     border-bottom: 3px solid #86328A;  
 }
 
-.nav-link.dropdown-toggle {
+.nav-link.dropdown-toggle,
+footer a {
     color: #dedede;
 }
 
