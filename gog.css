@@ -1,5 +1,19 @@
 body {
     background-color: #D8D8D8;
+    font-family: 'Lato', sans-serif;
+}
+
+.purpleStripe {
+    width:100%;
+    margin: 0;
+    padding: 0;
+    height: 5px;
+    position: absolute;
+    top:0px
+}
+
+.navbar {
+    background-color:rgba(26,26,26,0.9);
 }
 
 .carousel-indicators {
@@ -8,14 +22,14 @@ body {
 
 .img-text {
     position: absolute;
-    bottom: 45px;
+    bottom: 30px;
     left: 30px;
     color:white;
     font-weight: 600;
-    font-size: 28px;
+    font-size:2vw;
 }
 
-#myTab {
+#pills-tab {
     position: relative;
     left: 275px;
     top: 17px;
@@ -26,16 +40,23 @@ body {
 }
 
 
-
-#myTab .nav-item .nav-link {
+#pills-tab .nav-item .nav-link {
     font-size: 1rem;
     font-weight: 600;
     color:grey;
 }
 
-#myTab .nav-item .nav-link.active {
-    color:purple;
+#pills-tab .nav-item .nav-link.active {
+    color:#86328A;
     background-color: transparent;
     border: none;
-    border-bottom: 3px solid purple;  
+    border-bottom: 3px solid #86328A;  
+}
+
+.nav-link.dropdown-toggle {
+    color: #dedede;
+}
+
+#navbarDropdown4 {
+    color: #D99DDE;
 }
